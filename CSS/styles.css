@@ -1,6 +1,6 @@
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: 060606;
+    background-color: #060606;
     overflow: hidden;
     position: fixed;
     top: 0;
@@ -9,7 +9,7 @@
 /* Style the links inside the navigation bar */
 .topnav a {
     float: left;
-    color: 0788b2;
+    color: #0788b2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -17,12 +17,12 @@
 }
 /* Change the color of links on hover */
 .topnav a:hover {
-    background-color: 0788b2;
+    background-color: #0788b2;
     color: #f2f2f2;
 }
 /* Add a color to the active/current link */
 .topnav a.active {
-    background-color: 0788b2;
+    background-color: #0788b2;
     color: white;
 }
 footer {
@@ -137,8 +137,18 @@ input[type=text], select, textarea {
     margin-bottom: 16px;
     resize: vertical
 }
+input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
 input[type=submit] {
-    background-color: #4CAF50;
+    background-color: #0788b2;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -146,7 +156,7 @@ input[type=submit] {
     cursor: pointer;
 }
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #060606;
 }
 .container {
     border-radius: 5px;
