@@ -5,6 +5,7 @@
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 5;
 }
 /* Style the links inside the navigation bar */
 .topnav a {
@@ -17,7 +18,7 @@
 }
 /* Change the color of links on hover */
 .topnav a:hover {
-    background-color: #0788b2;
+    background-color: #0788b2; /* Band blue */
     color: #f2f2f2;
 }
 /* Add a color to the active/current link */
@@ -56,10 +57,14 @@ footer {
     border: 25px;
     padding: 25px;
     margin: 25px;
+    color: #f2f2f2;
+    background-color: #0788b2;
+    opacity: 0.9;
+    border-radius: 5px;
 }
 .foz img {
     float: left;
-    margin-right: 10; 
+    margin-right: 10;
 }
 .rachel {
     height: 400;
@@ -68,6 +73,10 @@ footer {
     border: 25px;
     padding: 25px;
     margin: 25px;
+    color: #f2f2f2;
+    background-color: #0788b2;
+    opacity: 0.9;
+    border-radius: 5px;
 }
 .rachel img {
     float: right;
@@ -80,6 +89,10 @@ footer {
     border: 25px;
     padding: 25px;
     margin: 25px;
+    color: #f2f2f2;
+    background-color: #0788b2;
+    opacity: 0.9;
+    border-radius: 5px;
 }
 .dom img {
     float: left;
@@ -92,6 +105,10 @@ footer {
     border: 25px;
     padding: 25px;
     margin: 25px;
+    color: #f2f2f2;
+    background-color: #0788b2;
+    opacity: 0.9;
+    border-radius: 5px;
 }
 .tianna img {
     float: right;
@@ -104,6 +121,10 @@ footer {
     border: 25px;
     padding: 25px;
     margin: 25px;
+    color: #f2f2f2;
+    background-color: #0788b2;
+    opacity: 0.9;
+    border-radius: 5px;
 }
 .dan img {
     float: left;
@@ -162,4 +183,54 @@ input[type=submit]:hover {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+}
+.photocontainer
+{
+    margin: auto;
+    width: 50%;
+    border: 3px;
+    padding: 10px;
+}
+.photocontainer img
+{
+	width:550px; 
+    height:auto;
+	border:1px;
+	border-radius:5px;
+}
+.row img
+{
+	vertical-align:middle;
+}
+.row
+{
+	margin:0px auto;
+	text-align:center;
+}
+.photocontainer button
+{
+    background-color: #0788b2;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+body
+{
+    background-image: url("../Assets/Backgroundimg.jpg");
+}
+.events
+{
+    margin: auto;
+    width: 50%;
+    border: 3px;
+    padding: 10px;  
+}
+.eventspic
+{
+	margin:0px auto;
+	text-align:center;
+    border: 3px;
+    padding: 10px;
 }
