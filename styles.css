@@ -1,0 +1,236 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #060606;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #0788b2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #0788b2; /* Band blue */
+    color: #f2f2f2;
+}
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #0788b2;
+    color: white;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-youtube {
+    background: red;
+    color: white;
+}
+.foz {
+    height: 400;
+    width: 600;
+    font-size: 14px;
+    border: 25px;
+    padding: 25px;
+    margin: 25px;
+    color: #f2f2f2;
+    background-color: #0788b2;
+    opacity: 0.9;
+    border-radius: 5px;
+}
+.foz img {
+    float: left;
+    margin-right: 10;
+}
+.rachel {
+    height: 400;
+    width: 600;
+    font-size: 14px;
+    border: 25px;
+    padding: 25px;
+    margin: 25px;
+    color: #f2f2f2;
+    background-color: #0788b2;
+    opacity: 0.9;
+    border-radius: 5px;
+}
+.rachel img {
+    float: right;
+    margin-left: 10;
+}
+.dom {
+    height: 400;
+    width: 600;
+    font-size: 14px;
+    border: 25px;
+    padding: 25px;
+    margin: 25px;
+    color: #f2f2f2;
+    background-color: #0788b2;
+    opacity: 0.9;
+    border-radius: 5px;
+}
+.dom img {
+    float: left;
+    margin-right: 10; 
+}
+.tianna {
+    height: 400;
+    width: 600;
+    font-size: 14px;
+    border: 25px;
+    padding: 25px;
+    margin: 25px;
+    color: #f2f2f2;
+    background-color: #0788b2;
+    opacity: 0.9;
+    border-radius: 5px;
+}
+.tianna img {
+    float: right;
+    margin-left: 10;
+}
+.dan {
+    height: 400;
+    width: 650;
+    font-size: 14px;
+    border: 25px;
+    padding: 25px;
+    margin: 25px;
+    color: #f2f2f2;
+    background-color: #0788b2;
+    opacity: 0.9;
+    border-radius: 5px;
+}
+.dan img {
+    float: left;
+    margin-right: 10; 
+}
+.bios {
+    margin: auto;
+    width: 50%;
+    border: 3px;
+    padding: 10px;  
+}
+.divide {
+    width: 100%;
+    border: 25px;
+    padding: 25px;
+    margin: 25px;
+}
+.vidp {
+    margin: auto;
+    width: 50%;
+    border: 3px;
+    padding: 10px;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+button {
+    background-color: #0788b2;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #060606;
+}
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+.photocontainer
+{
+    margin: auto;
+    width: 50%;
+    border: 3px;
+    padding: 10px;
+}
+.photocontainer img
+{
+	width:550px; 
+    height:auto;
+	border:1px;
+	border-radius:5px;
+}
+.row img
+{
+	vertical-align:middle;
+}
+.row
+{
+	margin:0px auto;
+	text-align:center;
+}
+.photocontainer button
+{
+    background-color: #0788b2;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+body
+{
+    background-image: url("../Assets/Backgroundimg.jpg");
+}
+.events
+{
+    margin: auto;
+    width: 50%;
+    border: 3px;
+    padding: 10px;  
+}
+.eventspic
+{
+	margin:0px auto;
+	text-align:center;
+    border: 3px;
+    padding: 10px;
+}
